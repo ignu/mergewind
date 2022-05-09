@@ -1,10 +1,11 @@
 {
   "name": "mergewind",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Merge Tailwind Classes",
   "main": "index.js",
   "scripts": {
-    "test": "npx jest"
+    "test": "npx jest",
+    "build": "npx jest"
   },
   "keywords": [
     "tailwind",

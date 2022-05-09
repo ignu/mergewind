@@ -1,5 +1,7 @@
 # MergeWind
 
+> :warning: **This is pre-alpha**. About 5% of cases are covered and performance is probably less than great.
+
 When extracting components with Tailwind, we often want to provide defaults and a way to override those defaults.
 
 Override gets complicated, not only are `p-4` and `p-12` different classes, `w-max` and `w-full` are in direct competition.
