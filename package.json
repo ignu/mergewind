@@ -1,14 +1,22 @@
 {
   "name": "mergewind",
   "version": "1.0.0",
-  "description": "",
+  "description": "Merge Tailwind Classes",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx jest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "tailwind",
+    "css"
+  ],
+  "author": "Leonard Smith",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
   "devDependencies": {
     "@types/jest": "^27.5.0",
     "jest": "^28.1.0",

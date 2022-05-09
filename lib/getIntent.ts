@@ -1,6 +1,5 @@
 const colorRegex =
   /(?:$|^|)(red-|blue-|indigo-|cool-gray-|pink-|yellow-|teal-|gray-|orange-|green-|purple-)(?:$|^|)/;
-
 const getType = (body: string) => {
   let parts = body.split("-");
   if (parts[parts.length - 1].match(/\n+$/)) {
