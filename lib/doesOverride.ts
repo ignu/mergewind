@@ -1,3 +1,5 @@
+import getIntent from "./getIntent";
+
 function recursiveDoesOverride(
   className: string,
   overrides: string[]
